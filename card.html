@@ -11,14 +11,15 @@
       background-color: rgb(229, 226, 226);
     }
       .item {
-background-color: rgb(213, 228, 228);
 height: 400px;
 width: 300px;
 padding: 10px;
 margin: 5px auto;
-border: 1px solid rgb(213, 228, 228);
+border: 1px solid rgb(206, 203, 203);
 border-radius: 10px;
+background-color: white;
       }
+      .item-hover:
      .main-img{
         border-radius: 10px 10px 0px 0px;
         margin-bottom: 5px;
@@ -26,11 +27,34 @@ border-radius: 10px;
      .project-heading{
       font-size: 23px;
       font-weight: 600;
-      font-family: cursive;
+      font-family:cursive;
      }
      .sub-container{
-      padding: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
 
+     }
+     .course-name{
+      background-color: rgb(179,227, 246);
+      padding: 4px;
+     border-radius: 4px;
+     }
+     .project-description{
+      font-size: 14px;
+      color: rgb(105,105,105);
+     }
+
+     .tech-stack{
+      display: flex;
+      gap:10px;
+      margin-top: 10px;
+     }
+     .tech{
+      background-color: rgb(220,220,220);
+      padding:4px;
+      border-radius: 20px;
+      margin-right: 5px;
+      font-size: 12px;
      }
     </style>
   </body>
@@ -40,7 +64,15 @@ border-radius: 10px;
   <div class="sub-container">
   <span class="project-heading"> Rode to code</span>
   <br/>
-  <span class="">Internship Cohort Program 6.0</span>
+  <span class="course name">Internship Cohort Program 6.0</span>
+  <p class="project-description">
+    This project serves as the foundationfor an e-commerce website speializing in the sale of eletronic gadgets with....
+  </p>
+  <div>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>Github</span>
+  </div>
 </div>
   </div>
 </html>
